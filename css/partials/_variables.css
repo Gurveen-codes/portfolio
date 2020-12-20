@@ -19,5 +19,5 @@ body {
   --shadow-color: 0 10px 30px rgba(118, 82, 225, 0.3);
 
   /* font family variables */
-  --roboto: "Roboto", sans-serif;
+  --roboto: "Roboto", serif;
 }

@@ -71,3 +71,20 @@
 }
 
 /* Banner End */
+
+/* About Start */
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h3 > span {
+  display: inline-block;
+  font: normal bold 50px/60px var(--roboto);
+  letter-spacing: 10px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.2rem 0;
+}
+
+/* About End */
