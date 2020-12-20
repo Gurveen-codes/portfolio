@@ -7,13 +7,14 @@
 /* Global CSS Styles */
 @import url(./partials/_global.css);
 
-/* Navigation Start */
+/*================== Navigation Start ==================*/
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar {
   padding: 1rem 10rem;
+  /* padding-right: 5%; */
 }
 
 .header_area .main-menu .navbar .nav-link {
@@ -37,10 +38,9 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+/*================== Navigation end ==================*/
 
-/* Navigation End */
-
-/* Banner Start */
+/*================== Banner Start ==================*/
 
 .site-main .site-banner .site-title h3 {
   padding-top: 30%;
@@ -70,9 +70,10 @@
   width: 90rem;
 }
 
-/* Banner End */
+/*================== Banner End ==================*/
 
-/* About Start */
+/*================== About Start ==================*/
+
 .site-main .about-area {
   padding: 8rem 5rem;
 }
@@ -87,4 +88,30 @@
   padding: 0.2rem 0;
 }
 
-/* About End */
+/*================== About end ==================*/
+
+/*================== Services Start ==================*/
+
+.site-main .services-area {
+  padding: 4rem 2rem;
+}
+
+.site-main .services-area .services-title {
+  padding: 0.1rem;
+}
+
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
+}
+.site-main .services-area .services {
+  background: rgba(248, 252, 253, 0.95);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.5s ease;
+}
+
+.site-main .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
+/*================== Services End ==================*/
