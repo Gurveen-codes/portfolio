@@ -14,9 +14,14 @@ body {
   --title-color: #141313;
   --text-color: #777777;
   --border-color: #201f1f17;
-  --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  --gradient-color: linear-gradient(
+    90deg,
+    rgba(135, 199, 146, 1) 0%,
+    rgba(103, 191, 116, 1) 50%,
+    rgb(102, 141, 109) 100%
+  );
   --box-shadow: 0 10px 30px rgba(57, 56, 61, 0.2);
-  --shadow-color: 0 10px 30px rgba(118, 82, 225, 0.3);
+  --shadow-color: 0 10px 30px rgba(102, 141, 109, 0.3);
 
   /* font family variables */
   --roboto: "Roboto", serif;

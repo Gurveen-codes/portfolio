@@ -65,9 +65,10 @@
   font-size: 1.3rem;
 }
 
-.site-main .site-banner .banner-image > img {
+.site-main .site-banner .banner-image > i {
   padding: 7rem 0;
-  width: 90rem;
+  width: 25rem;
+  text-align: center;
 }
 
 /*================== Banner End ==================*/
@@ -132,8 +133,8 @@
   justify-content: center;
 }
 
-.site-main .skills-area .row .single-skill {
-  border: 1px solid var(--border-color);
+.site-main .skills-area .row .single-skill > i {
+  /* border: 1px solid var(--border-color); */
   text-align: center;
   padding: 1.8rem 0;
   margin: 0.8rem 0;
