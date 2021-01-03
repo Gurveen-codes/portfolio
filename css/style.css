@@ -75,7 +75,7 @@
 /*================== About Start ==================*/
 
 .site-main .about-area {
-  padding: 8rem 5rem;
+  padding: 8rem 1rem;
 }
 
 .site-main .about-area .about-title h3 > span {
@@ -106,8 +106,8 @@
 .site-main .services-area .services {
   background: rgba(248, 252, 253, 0.95);
   padding: 2rem 0;
-  width: 16rem;
-  margin: 5rem 0.5rem;
+  width: 14rem;
+  margin: 3rem 0.5rem;
   transition: box-shadow 0.5s ease;
 }
 
@@ -115,3 +115,37 @@
   box-shadow: var(--box-shadow);
 }
 /*================== Services End ==================*/
+
+/*================== Skills Start ==================*/
+
+.site-main .skills-area {
+  padding: 1rem 4rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .skills-area .skills-title > h1 {
+  font-size: 35px;
+}
+
+.site-main .skills-area .row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .skills-area .row .single-skill {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0;
+  margin: 0.8rem 0;
+  height: 100px;
+  width: 120px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.site-main .skills-area .row .single-skill:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+/*================== Skills End ==================*/
