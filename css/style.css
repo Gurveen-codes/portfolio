@@ -150,3 +150,27 @@
 }
 
 /*================== Skills End ==================*/
+
+/*================== Footer Start ==================*/
+
+.footer-area {
+  padding: 4rem 0;
+}
+
+.footer-area .social h5 {
+  font: normal 500 23px/30px var(--roboto);
+}
+
+.footer-area .social a > i {
+  font-size: 32px;
+  padding: 2rem;
+  color: var(--title-color);
+  transition: 0.4s ease;
+}
+
+.footer-area .social a > i:hover {
+  transform: scale(1.5);
+  color: rgba(103, 191, 116, 1);
+}
+
+/*================== Footer End ==================*/
