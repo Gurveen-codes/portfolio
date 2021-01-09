@@ -117,6 +117,9 @@
 .site-main .services-area .services:hover {
   box-shadow: var(--box-shadow);
 }
+.site-main .services-area .services h5 {
+  font-family: var(--roboto);
+}
 /*================== Services End ==================*/
 
 /*================== Skills Start ==================*/
@@ -141,7 +144,6 @@
 }
 
 .site-main .skills-area .row .single-skill a > i {
-  /* border: 1px solid var(--border-color); */
   text-align: center;
   padding: 1.8rem 0;
   margin: 0.8rem 0;
@@ -157,6 +159,104 @@
 }
 
 /*================== Skills End ==================*/
+
+/*================== Projects Start ==================*/
+.project-area {
+  margin: 2rem;
+}
+.project-area > h1 {
+  font-size: 35px;
+}
+.single-project {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.3fr 0.8fr 0.2fr;
+  gap: 2% 1%;
+  grid-template-areas:
+    "img title"
+    "img desc"
+    "img buttons";
+  border-top: 0.3px outset #ccc;
+  border-bottom: 2px outset #ccc;
+  border-left: 0.3px outset #ccc;
+  border-right: 2px outset #ccc;
+  border-radius: 1% 1%;
+
+  padding: 2rem;
+  margin: 2rem auto;
+
+  transition: transform 0.4s ease;
+  background: rgba(248, 252, 253, 0.95);
+}
+
+.single-project:hover {
+  transform: scale(1.03);
+}
+
+.project-title {
+  grid-area: title;
+  justify-self: center;
+  align-self: center;
+}
+
+.project-desc {
+  grid-area: desc;
+  padding: 0 1rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.project-buttons {
+  grid-area: buttons;
+  display: flex;
+  justify-content: center;
+}
+
+.project-buttons button {
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+}
+.project-area a {
+  text-decoration: none;
+  color: var(--title-color);
+}
+.project-buttons button > i {
+  font-size: 1.2em;
+}
+.project-img {
+  grid-area: img;
+}
+.project-area .more a:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 500px) {
+  .project-area {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .single-project {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 0.5fr 1.3fr 0.2fr;
+    gap: 0;
+    grid-template-areas:
+      "img"
+      "title"
+      "desc"
+      "buttons";
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+    transition: transform 0.4s ease;
+    border: 0.3px outset #aaa;
+  }
+
+  .project-img > img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/*================== Projects End ==================*/
 
 /*================== Footer Start ==================*/
 
