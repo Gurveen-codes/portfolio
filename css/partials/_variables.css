@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&family=Raleway:wght@400;500;700&display=swap");
 html,
 body {
   margin: 0%;
@@ -9,20 +10,16 @@ body {
 /* CSS Variables */
 
 :root {
-  --primary-color: #4458dc;
-  --primary-color2: #854fee;
-  --title-color: #141313;
-  --text-color: #777777;
-  --border-color: #201f1f17;
-  --gradient-color: linear-gradient(
-    90deg,
-    rgba(135, 199, 146, 1) 0%,
-    rgba(103, 191, 116, 1) 50%,
-    rgb(102, 141, 109) 100%
-  );
+  --primary-color: #769fcd;
+  --primary-color2: #5185bf;
+  --title-color: #1e2022;
+  --text-color: #30475e;
+  --border-color: #52616b;
+  --gradient-color: linear-gradient(90deg, #769fcd 0%, #5185bf 100%);
   --box-shadow: 0 10px 30px rgba(57, 56, 61, 0.2);
   --shadow-color: 0 10px 30px rgba(102, 141, 109, 0.3);
 
   /* font family variables */
-  --roboto: "Roboto", serif;
+  --roboto: "Quintessential", cursive;
+  --raleway: "Raleway", sans-serif;
 }

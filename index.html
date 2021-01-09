@@ -94,8 +94,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-sm-12 banner-image">
-              <i class="fas fa-laptop-code fa-10x"></i>
+            <div
+              class="col-lg-6 col-sm-12 banner-image d-flex flex-row flex-wrap align-items-center justify-content-center"
+            >
+              <!-- <i class="fas fa-laptop-code fa-10x"></i> -->
+              <img src="./img/img2-v2.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -107,9 +110,11 @@
       <section class="about-area">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 col-sm-12">
+            <div
+              class="col-lg-6 col-sm-12 d-flex flex-row flex-wrap align-items-center"
+            >
               <div class="about-image">
-                <img src="" alt="About-img" class="img-fluid" />
+                <img src="./img/img1-v2.jpg" alt="About-img" />
               </div>
             </div>
             <div class="col-lg-6 col-sm-12 about-title">
@@ -118,7 +123,7 @@
                 <span>introduce</span>
                 <span>myself</span>
               </h3>
-              <div class="paragraph py-4 w-75">
+              <div class="paragraph py-4">
                 <p class="para">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit provident iusto, nesciunt aperiam laborum ea.
@@ -508,7 +513,7 @@
           </div>
           <div class="copyright text-center">
             <p class="para">
-              Copyright ©<span class="copyright-date">2021</span> All Rights
+              Copyright ©<span id="copyright-year">CurrentYear</span> All Rights
               Reserved | Created by
               <a href="#" target="_blank" rel="noopener noreferrer"
                 ><span style="color: var(--primary-color)"
@@ -529,5 +534,7 @@
 
     <!--Bootstrap JS-->
     <script src="./js/bootstrap.min.js"></script>
+    <!-- Custom JS file -->
+    <script src="./js/app.js"></script>
   </body>
 </html>
