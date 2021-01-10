@@ -1,0 +1,147 @@
+/********************** Mobile Devices ***************************/
+@media only screen and (max-width: 480px) {
+  .site-main .site-banner .banner-image > img {
+    padding: 3rem 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+  }
+
+  .site-main .about-area .about-image {
+    display: none;
+  }
+
+  .site-main .about-area .about-title h3 > span {
+    font-size: 2.3rem;
+    letter-spacing: 4px;
+    line-height: 3rem;
+  }
+
+  .site-main .services-area .services {
+    margin: 1rem 0.5rem;
+    width: 16rem;
+  }
+
+  .site-main .skills-area .row .col-sm-6 {
+    width: min-content;
+  }
+
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .services-area {
+    padding: 2%;
+    margin: 0;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 42px;
+  }
+
+  .project-area {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .single-project {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 0.5fr 1.3fr 0.2fr;
+    gap: 0;
+    grid-template-areas:
+      "img"
+      "title"
+      "desc"
+      "buttons";
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+    transition: transform 0.4s ease;
+    border: 0.3px outset #aaa;
+  }
+
+  .project-img > img {
+    height: 220px;
+    width: 100%;
+  }
+}
+
+/********************** Tablets & iPads ***************************/
+
+@media only screen and (min-width: 481px) and (max-width: 576px) {
+  .site-main .services-area .services-list .col-sm-6 {
+    width: 48%;
+    margin: 0 1%;
+  }
+  .site-main .about-area .about-title h3 > span {
+    size: 31px;
+    letter-spacing: 10px;
+  }
+  .site-main .services-area .services-list .services {
+    width: 20rem;
+    margin: 2rem 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .site-main .about-area .about-title h3 > span {
+    size: 31px;
+    letter-spacing: 10px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .project-area {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .single-project {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 0.5fr 1.3fr 0.2fr;
+    gap: 0;
+    grid-template-areas:
+      "img"
+      "title"
+      "desc"
+      "buttons";
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+    transition: transform 0.4s ease;
+    border: 0.3px outset #aaa;
+  }
+
+  .project-img > img {
+    height: 220px;
+    width: 100%;
+  }
+}
+
+/********************** Desktops & Large Screens ***************************/
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+}
+
+/* */
+/**********************  X-large Screens ***************************/
+
+@media only screen and (min-width: 1201px) {
+  .site-main .skills-area,
+  .site-main .about-area,
+  .site-main .services-area .services-title {
+    padding: 3% 4%;
+  }
+  .site-main .about-area .about-title {
+    padding: 0 3%;
+  }
+  .site-main .services-area {
+    padding-bottom: 3rem;
+  }
+  .site-main .skills-area {
+    margin: 0 10%;
+  }
+
+  .site-main .project-area {
+    margin: 8rem 10%;
+  }
+  .site-main .project-area .single-project {
+    margin: 4rem auto;
+  }
+
+  .header_area .main-menu .navbar .navbar-brand {
+    margin-left: 21%;
+  }
+}

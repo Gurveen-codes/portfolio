@@ -107,6 +107,15 @@
   padding: 0.2rem 0;
 }
 
+.site-main .about-area .about-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-main .about-area .about-image > img {
+  width: 95%;
+}
+
 /*================== About end ==================*/
 
 /*================== Services Start ==================*/
