@@ -11,7 +11,7 @@ $(document).ready(function () {
     $(this).text(text.replace("CurrentYear", newDate));
   });
 
-  // /////////// Sticky Navigation Menu
+  ///////////// Sticky Navigation Menu ////////////
   let header_height = $(".header_area").height() + 50;
 
   function navFixed() {
@@ -26,4 +26,21 @@ $(document).ready(function () {
   }
 
   $(window).on("scroll", navFixed);
+
+  /////////// Smooth Scrolling //////////////
+  $(".nav-link")
+    .toArray()
+    .forEach((el) => {
+      let link_id = `#${el["id"]}`;
+
+      let target_area = `.${el["id"]}-area`;
+
+      $(link_id).on("click", function (e) {
+        e.preventDefault();
+
+        $(target_area)[0].scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    });
 });
