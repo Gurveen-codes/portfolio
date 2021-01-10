@@ -20,6 +20,6 @@ body {
   --shadow-color: 0 10px 30px rgba(102, 141, 109, 0.3);
 
   /* font family variables */
-  --roboto: "Quintessential", cursive;
+  --font-head: "Quintessential", cursive;
   --raleway: "Raleway", sans-serif;
 }

@@ -1,11 +1,8 @@
-/* import font from font.css */
-@import url(./fonts.css);
-
 /* CSS variables */
-@import url(./partials/_variables.css);
+@import url(./partials/variables.css);
 
 /* Global CSS Styles */
-@import url(./partials/_global.css);
+@import url(./partials/global.css);
 
 /*================== Navigation Start ==================*/
 .header_area .main-menu .navbar .navbar-brand {
@@ -17,7 +14,7 @@
 }
 
 .header_area .main-menu .navbar .nav-link {
-  font-family: var(--roboto);
+  font-family: var(--font-head);
   font-weight: 500;
   text-transform: uppercase;
   padding: 1rem;
@@ -98,7 +95,7 @@
 
 .site-main .about-area .about-title h3 > span {
   display: inline-block;
-  font: normal bold 50px/60px var(--roboto);
+  font: normal bold 50px/60px var(--font-head);
   letter-spacing: 10px;
 }
 
@@ -133,7 +130,7 @@
   box-shadow: var(--box-shadow);
 }
 .site-main .services-area .services h5 {
-  font-family: var(--roboto);
+  font-family: var(--font-head);
 }
 /*================== Services End ==================*/
 
@@ -247,7 +244,7 @@
 }
 
 .project-area .project-title {
-  font-family: var(--roboto);
+  font-family: var(--font-head);
 }
 
 @media (max-width: 500px) {
@@ -285,7 +282,7 @@
 }
 
 .footer-area .social h5 {
-  font: normal 500 23px/30px var(--roboto);
+  font: normal 500 23px/30px var(--font-head);
 }
 
 .footer-area .social a > i {

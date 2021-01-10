@@ -1,9 +1,9 @@
-@import url(./_variables.css);
+@import url(./variables.css);
 
 /* Global Classes */
 
 .title-text {
-  font: normal bold 50px/72px var(--roboto);
+  font: normal bold 50px/72px var(--font-head);
 }
 .text-uppercase {
   text-transform: uppercase;
@@ -12,7 +12,7 @@
 /* Buttons */
 .button {
   padding: 0.8rem 2.2rem;
-  font: normal 500 16px/20px var(--roboto);
+  font: normal 500 16px/20px var(--font-head);
   position: relative;
   border: 3px solid transparent;
   border-radius: 4px;
