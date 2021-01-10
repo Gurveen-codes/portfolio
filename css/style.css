@@ -9,12 +9,11 @@
 
 /*================== Navigation Start ==================*/
 .header_area .main-menu .navbar .navbar-brand {
-  padding: 0 2rem 0 5rem;
+  padding: 0 2rem 0 0rem;
 }
 
 .header_area .main-menu .navbar {
-  padding: 1rem 10rem;
-  /* padding-right: 5%; */
+  padding: 1rem 1rem;
 }
 
 .header_area .main-menu .navbar .nav-link {
@@ -56,6 +55,18 @@
   margin-left: 5%;
   background: black;
   transform: translateY(-10px);
+  animation: line 2s ease;
+}
+/* banner line animation */
+@keyframes line {
+  from {
+    left: 50%;
+    width: 0%;
+  }
+  to {
+    left: 5%;
+    width: 40%;
+  }
 }
 
 .site-main .site-banner .site-title h1 {
@@ -166,7 +177,7 @@
 
 /*================== Projects Start ==================*/
 .project-area {
-  margin: 2rem;
+  margin: 6rem 2rem;
 }
 .project-area > h1 {
   font-size: 35px;
@@ -180,21 +191,17 @@
     "img title"
     "img desc"
     "img buttons";
-  border-top: 0.3px outset #ccc;
-  border-bottom: 2px outset #ccc;
-  border-left: 0.3px outset #ccc;
-  border-right: 2px outset #ccc;
+  border: 0.3px outset #d0ebf2;
   border-radius: 1% 1%;
-
   padding: 2rem;
   margin: 2rem auto;
-
   transition: transform 0.4s ease;
   background: rgba(248, 252, 253, 0.95);
 }
 
 .single-project:hover {
   transform: scale(1.03);
+  box-shadow: var(--box-shadow);
 }
 
 .project-title {
