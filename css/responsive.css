@@ -16,10 +16,14 @@
     letter-spacing: 4px;
     line-height: 3rem;
   }
+  .site-main .services-area .services-list .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .site-main .services-area .services {
-    margin: 1rem 0.5rem;
-    width: 16rem;
+    width: 20rem;
   }
 
   .site-main .skills-area .row .col-sm-6 {
@@ -51,7 +55,7 @@
       "desc"
       "buttons";
     padding: 2rem 1rem;
-    margin: 2rem auto;
+    margin: 2.5rem auto;
     transition: transform 0.4s ease;
     border: 0.3px outset #aaa;
   }
@@ -73,12 +77,12 @@
     size: 31px;
     letter-spacing: 10px;
   }
+
   .site-main .services-area .services-list .services {
     width: 20rem;
     margin: 2rem 0.5rem;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .site-main .about-area .about-title h3 > span {
     size: 31px;
@@ -86,6 +90,12 @@
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  .site-main .services-area .services-list .col-12,
+  .site-main .services-area .services-list .col-sm-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .project-area {
     width: 80%;
     margin: 2rem auto;
