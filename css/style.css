@@ -13,6 +13,10 @@
   padding: 1rem 1rem;
 }
 
+.header_area .main-menu.navbar_fixed .navbar {
+  padding: 0 1rem;
+}
+
 .header_area .main-menu .navbar .nav-link {
   font-family: var(--font-head);
   font-weight: 500;
@@ -122,7 +126,7 @@
   background: rgba(248, 252, 253, 0.95);
   padding: 2rem 0;
   width: 14rem;
-  margin: 3rem 0.5rem;
+  margin: 2rem 0.5rem;
   transition: box-shadow 0.5s ease;
 }
 
@@ -233,6 +237,8 @@
 }
 .project-img {
   grid-area: img;
+  justify-self: center;
+  align-self: center;
 }
 .project-area .more a {
   transition: 0.4s ease;
@@ -245,32 +251,6 @@
 
 .project-area .project-title {
   font-family: var(--font-head);
-}
-
-@media (max-width: 500px) {
-  .project-area {
-    width: 80%;
-    margin: 2rem auto;
-  }
-  .single-project {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 0.5fr 1.3fr 0.2fr;
-    gap: 0;
-    grid-template-areas:
-      "img"
-      "title"
-      "desc"
-      "buttons";
-    padding: 2rem 1rem;
-    margin: 2rem auto;
-    transition: transform 0.4s ease;
-    border: 0.3px outset #aaa;
-  }
-
-  .project-img > img {
-    height: 100%;
-    width: 100%;
-  }
 }
 
 /*================== Projects End ==================*/

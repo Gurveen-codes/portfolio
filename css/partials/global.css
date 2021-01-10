@@ -66,3 +66,21 @@ p.para {
   font: normal 500 20px/25px var(--raleway);
   color: var(--text-color);
 }
+
+p.para span.highlight {
+  font-style: italic;
+  color: #3b6ca2;
+  text-decoration: underline;
+}
+
+.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: var(--box-shadow);
+  z-index: 999;
+  transition: background 1s ease;
+}
