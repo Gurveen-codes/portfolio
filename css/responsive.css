@@ -24,6 +24,8 @@
 
   .site-main .services-area .services {
     width: 20rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
   }
 
   .site-main .skills-area .row .col-sm-6 {
@@ -57,7 +59,6 @@
     padding: 2rem 1rem;
     margin: 2.5rem auto;
     transition: transform 0.4s ease;
-    border: 0.3px outset #aaa;
   }
 
   .project-img > img {
@@ -96,6 +97,11 @@
     align-items: center;
     justify-content: center;
   }
+  .site-main .services-area .services-list .services {
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+  }
+
   .project-area {
     width: 80%;
     margin: 2rem auto;
@@ -112,7 +118,6 @@
     padding: 2rem 1rem;
     margin: 2rem auto;
     transition: transform 0.4s ease;
-    border: 0.3px outset #aaa;
   }
 
   .project-img > img {

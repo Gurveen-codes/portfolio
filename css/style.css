@@ -141,6 +141,7 @@
 
 .site-main .services-area .services:hover {
   box-shadow: var(--box-shadow);
+  border-radius: 20px;
 }
 .site-main .services-area .services h5 {
   font-family: var(--font-head);
@@ -181,6 +182,7 @@
 .site-main .skills-area .row .single-skill:hover {
   box-shadow: var(--box-shadow);
   transform: scale(1.1);
+  border-radius: 20px;
 }
 
 /*================== Skills End ==================*/
@@ -201,17 +203,17 @@
     "img title"
     "img desc"
     "img buttons";
-  border: 0.3px outset #d0ebf2;
-  border-radius: 1% 1%;
+
   padding: 2rem;
   margin: 2rem auto;
   transition: transform 0.4s ease;
   background: rgba(248, 252, 253, 0.95);
+  border-radius: 20px;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #eee;
 }
 
 .single-project:hover {
   transform: scale(1.03);
-  box-shadow: var(--box-shadow);
 }
 
 .project-title {
@@ -241,7 +243,7 @@
   text-decoration: none;
   color: var(--title-color);
 }
-.project-buttons button > i {
+.project-buttons button {
   font-size: 1.2em;
 }
 .project-img {
@@ -260,6 +262,11 @@
 
 .project-area .project-title {
   font-family: var(--font-head);
+}
+
+.project-area .android-title {
+  font-family: var(--font-head);
+  margin: 4rem auto;
 }
 
 /*================== Projects End ==================*/
