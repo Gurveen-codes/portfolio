@@ -1,3 +1,0 @@
--> Fix Font issuses
--> Find Images
--> Change Color
