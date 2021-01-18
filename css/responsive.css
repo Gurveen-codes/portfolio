@@ -1,4 +1,5 @@
 /********************** Mobile Devices ***************************/
+/* @media only screen and (max-width: ) */
 @media only screen and (max-width: 480px) {
   .site-main .site-banner .banner-image > img {
     padding: 3rem 0;
@@ -28,6 +29,13 @@
     border-radius: 20px;
   }
 
+  .site-main .services-area .services-list {
+    padding: 0;
+  }
+
+  .site-main .skills-area {
+    padding: 2%;
+  }
   .site-main .skills-area .row .col-sm-6 {
     width: min-content;
   }
@@ -44,12 +52,12 @@
   }
 
   .project-area {
-    width: 80%;
+    width: 90%;
     margin: 2rem auto;
   }
   .single-project {
     grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 0.5fr 1.3fr 0.2fr;
+    grid-template-rows: 1fr 0.3fr 1.3fr 0.2fr;
     gap: 0;
     grid-template-areas:
       "img"
@@ -65,6 +73,13 @@
     height: 220px;
     width: 100%;
   }
+  .project-img {
+    height: 220px;
+  }
+}
+
+.footer-area .copyright > p.para {
+  font-size: 1.1em;
 }
 
 /********************** Tablets & iPads ***************************/

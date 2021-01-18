@@ -84,3 +84,7 @@ p.para span.highlight {
   z-index: 999;
   transition: background 1s ease;
 }
+
+.copyright > p.para {
+  font-style: italic;
+}
